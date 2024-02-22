@@ -1,0 +1,5 @@
+Pegar slots types:
+
+slots = handler_input.request_envelope.request.intent.slots
+SLOT_MEU = slots["NOME_SLOT"].value
+
